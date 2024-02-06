@@ -13,7 +13,7 @@ Think weird fonts, random character rotations, and oddly specific macros.
 - Add one-line comments immediately above the relevant line of code using `%`-comments:  
 ```latex
 % This is a one-line comment *sufficiently* explaining the line below
-\newcommand[\bruh][1]{}
+\newcommand{\bruh}[1]{}
 ```
 - For multi-line comments, use the `\bruh` command (defined in the preamble itself):
 ```latex
@@ -21,7 +21,7 @@ Think weird fonts, random character rotations, and oddly specific macros.
 This is a whole paragraph explaining how the code below works.
 I really hope all this complicated dark magic is worth it.
 }
-\newcommand[\huh][0][This is a useless command, unworthy of documentation]
+\newcommand{\huh}[0]{This is a useless command, unworthy of documentation}
 ```
 
 ## How to contribute
